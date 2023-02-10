@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+/* universal text settings */
+.h1-text {
+    margin-bottom: 0.5px;
+}
+.h2-text {
+    margin-bottom: 10px;
+}
+.h3-text:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.container {
+    background-color: black;
+    position: relative;
+}
+.header-navbar {
+    background-color: rgba(50, 50, 51, 0.999);
+    /* background-color: rgba(51, 47, 47, 0.4); */
+    /* background-color: black; */
+    height: 44px;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 20px;
+    opacity: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    z-index: 3;
+}
+.header-navbar-ul {
+    text-decoration: none;
+    color: white;
+
+    display: flex;
+    justify-content: center; 
+    gap: 46px;
+
+    position: fixed;
+}
+.header-navbar-links {
+    color: rgb(204, 204, 204);
+    align-self: center;
+    text-decoration: none;
+    font-size: small;
+}
+.header-navbar-links:hover {
+    color: white;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+.header-text-container h1 {
+    font-size: 60px;
+}
+.header-text-container h2 {
+    font-size: 30px;
+}
+.header-text-container h3 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+    /* color: rgb (36, 134, 27); */
+}
+.header-image {
+    background-image: url("media/hero-iphone-14-pro\ copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+main {
+    margin-top: 5px;
+}
+
+
+.iPhone-14-container {
+    margin-top: 13px;
+    /* background-color: rgb(251, 251, 253); */
+    background-color: white
+}
+.iPhone-14-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    /* background-color: rgb(251, 251, 253); */
+    background-color: white;
+    color: black;
+}
+.iPhone-14-text-container h1 {
+    font-size: 60px;
+}
+.iPhone-14-text-container h2 {
+    font-size: 30px;
+}
+.iPhone-14-text-container h3 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.iPhone-14-image {
+    background-image: url("media/iphone14\ big\ and\ bigger.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 62.7%;
+    margin: 0 210px;
+}
+
+
+.homepod-container {
+    margin-top: 13px;
+    background-color: black;
+}
+.homepod-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+.homepod-text-container h1 {
+    font-size: 60px;
+}
+.homepod-text-container h2 {
+    font-size: 30px;
+}
+.homepod-text-container h3 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.homepod-image {
+    background-image: url("media/homepod.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 85%;
+    margin: 0 80px;
+}
+
+.sec-1 {
+    margin: 13px;
+
+    display: flex;
+}
+.sec-1-item {
+    background-color: black;
+    /* background-color: green; */
+    color: white;
+    margin-right: 13px;
+    height: 670px;
+    width: 50%;
+}
+
+.apple-watch-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+}
+#watch {
+    font-size: 40px;
+}
+#series-8 {
+    color: rgb(189,30,36);
+    /* font-size: 15px; */
+}
+.apple-watch-text-container h1 {
+    font-size: 55px;
+}
+.apple-watch-text-container h2 {
+    font-size: 25px; 
+}
+.apple-watch-text-container h3 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.apple-watch-image {
+    background-image: url("media/series.8-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    padding-bottom: 50px;
+    margin: 0 px;
+}
+
+.black-unity-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+.black-unity-text-container h1 {
+    font-size: 55px;
+}
+.black-unity-text-container h2 {
+    font-size: 25px;
+}
+.black-unity-text-container h3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.black-unity-image {
+    background-image: url("media/Apple-Watch-Unity-Band-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    /* margin: 0 55px; */
+}
+
+
+.sec-2 {
+    margin: 13px;
+
+    display: flex;
+}
+.sec-2-item {
+    background-color: black;
+    /* background-color: green; */
+    color: white;
+    margin-right: 13px;
+    height: 670px;
+    width: 50%;
+}
+
+.appletv-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgb(24, 78, 99);
+    color: white;
+    height: 630px;
+    width: 50%;
+}
+.appletv-text-container h1 {
+    font-size: 55px;
+}
+.appletv-text-container h2 {
+    font-size: 25px;
+}
+.appletv-text-container h3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.appletv-image {
+    background-image: url("media/appletvplus.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.valentine-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgb(203, 36, 53);
+    color: black;
+    height: 630px;
+    width: 50%;
+}
+.valentine-text-container h1 {
+    font-size: 55px;
+}
+.valentine-text-container h2 {
+    font-size: 25px;
+}
+.valentine-text-container h3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.valentine-image {
+    background-image: url("media/valentine-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.sec-3 {
+    margin: 13px;
+
+    display: flex;
+}
+.sec-3-item {
+    background-color: black;
+    /* background-color: green; */
+    color: white;
+    margin-right: 13px;
+    height: 670px;
+    width: 50%;
+}
+
+.fitness-container {
+    background-color: whitesmoke;
+}
+.fitness-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: whitesmoke;
+    color: black;
+}
+.fitness-text-container h1 {
+    font-size: 55px;
+}
+.fitness-text-container h2 {
+    font-size: 25px;
+}
+#cardh2 {
+    margin: 0;
+    padding: 0;
+}
+.fitness-text-container h3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+
+.fitness-image {
+    background-image: url("media/apple\ fitness-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52vh;
+    width: 100%;
+}
+
+.card-container {
+    background-color: rgb(251, 251, 253);
+}
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgb(251, 251, 253);
+    color: black;
+}
+.card-text-container h1 {
+    font-size: 55px;
+}
+.card-text-container h2 {
+    font-size: 25px;
+}
+.card-text-container h3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(8, 107, 206);
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+.card-image {
+    background-image: url("media/new\ apple\ card.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(245, 245, 247);
+    
+    height: 1000px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding: 20px 100px;
+    padding-bottom: 0px;
+}
+.footer-text {
+    color: rgb(121, 121, 124);
+    font-size: 13.7px;
+}
+.footer-text p {
+    /* padding: 0.25px 0 0.25px 0; */
+    /* margin : 0.25px 0 0.25px 0; */
+    margin-bottom: 0.2m;
+}
+.text-link {
+    color: rgb(85, 85, 86);
+    text-decoration: underline;
+}
+
+.second {
+    padding-top: 15px;
+    height: 430px;
+
+    display: flex;
+}
+.second p {
+    margin-bottom: 10px;
+}
+.footer-header {
+    color: rgb(29, 29, 31);
+}
+.footer-header-text {
+    color: rgb(104, 104, 106);
+}
+
+.shop-and-learn {
+    margin-bottom: 25px;
+}
+
+.col-1 {
+    margin-right: 100px;
+}
+.col-2 {
+    margin-right: 45px;
+}
+.col-3 {
+    margin-right: 50px;
+}
+.col-4 {
+    margin-right: 30px;
+}
+
+.account, .for-business, .for-education, .for-healthcare, .apple-values{
+    margin-bottom: 25px;
+}
+
+.lower-text-container {
+    margin-bottom: 6px;
+}
+.lower-text {
+    color: rgb(121, 121, 124);
+    font-size: 13.7px;
+}
+.lower-text-link {
+    color:rgb(8, 107, 206);
+    text-decoration: underline;
+}
+
+.lower-text-container-2 {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
